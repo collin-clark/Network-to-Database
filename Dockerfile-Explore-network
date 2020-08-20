@@ -11,5 +11,6 @@ ENV NET_TEXTFSM /network_crawler/network_to_db/ntc-templates-master/templates
 
 RUN pip install netmiko
 RUN pip install ciscoconfparse
+RUN git clone https://github.com/collin-clark/Network-to-Database.git .
 
-ENTRYPOINT ["python3", "explore_network.py"]
+ENTRYPOINT ["/bin/bash"]
