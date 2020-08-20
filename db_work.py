@@ -29,7 +29,7 @@ from pprint import pprint
 #build_db(db_name,tables_columns)
 socket.gethostbyname('test-mysql')
 #db_location = socket.gethostbyname('test-mysql')
-db_location = '192.168.0.183'
+db_location = '172.17.0.5'
 db_user = 'root'
 db_password = 'password'
 perm_db = 'network_data_db'
