@@ -1,3 +1,6 @@
+Changing this to run purely in Linux (not WSL) and on a single host. May dockerize it later.
+
+--------------------------------------------------------------------------------------------------
 Demo: https://www.youtube.com/watch?v=koJc_LmFpAI&feature=youtu.be
 
 This program will run though your Cisco gear, run a bunch of commands on the IP addresses in IPs.txt, and put data from those commands into a database.  It will also find other devices in your network to pull data from and stick into the database, and repeat till it runs out of devices to hit.
